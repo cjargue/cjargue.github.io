@@ -1,0 +1,91 @@
+body {
+  background-color: #eee;
+}
+.header-style {
+	border-radius: 0px;
+}
+.navbar-nav {
+	float: right;
+}
+.starter-template {
+  padding: 40px 15px; 
+  text-align: center;
+}
+.section {
+	display: block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 35px 20% 100px 20%;
+/*	border-top: 1px solid #aaa;*/
+	min-height: 500px;
+}
+.section:first-child {
+/*	width: 100%;*/
+	padding-left: 100px;
+	padding-right: 100px;
+	border: none;
+}
+.section:nth-child(even) {
+	background-color: #383838;
+	color: white;
+}
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 22px;
+	margin-top: 40px;
+}
+.header-style {
+	background-color: #383838;
+	border: none;
+}
+.header-style a {
+	color : #eee;
+}
+.header-style a:hover {
+	color : black;
+}
+a.navbar-brand:hover {
+	color: #ccc;
+}
+.picture {
+	height:300px;
+	margin:25px;
+	float:left;
+}
+
+
+.courses td{
+	padding-left:10px;
+	padding-right:10px;
+}
+.courses caption{
+	font-size: 18px;
+}
+.courses {
+	margin-bottom: 10px;
+}
+
+
+.contact tr {
+	
+}
+.contact td {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.current-class {
+	font-weight: bold;
+}
+
+.footer {
+	text-align: center; 
+	background-color: #383838;
+	color: white;
+	min-height: 50px;
+	padding-top: 10px;
+}
