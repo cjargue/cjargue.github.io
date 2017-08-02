@@ -7,6 +7,13 @@ body {
 .navbar-nav {
 	float: right;
 }
+.navbar-toggle {
+	border:1px solid white;
+}
+.icon-bar {
+	background-color:white;
+}
+
 .starter-template {
   padding: 40px 15px; 
   text-align: center;
