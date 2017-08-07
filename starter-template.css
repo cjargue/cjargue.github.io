@@ -64,6 +64,9 @@ a.navbar-brand:hover {
 }
 
 
+.courses {
+	margin-bottom: 10px;
+}
 .courses td{
 	padding-left:10px;
 	padding-right:10px;
@@ -71,14 +74,11 @@ a.navbar-brand:hover {
 .courses caption{
 	font-size: 18px;
 }
-.courses {
-	margin-bottom: 10px;
+.courses tr td:first-child {
+	vertical-align: top;
 }
 
 
-.contact tr {
-	
-}
 .contact td {
 	padding-left: 10px;
 	padding-right: 10px;
