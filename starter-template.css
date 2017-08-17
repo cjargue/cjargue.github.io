@@ -67,11 +67,11 @@ a.navbar-brand:hover {
 .courses {
 	margin-bottom: 10px;
 }
-.courses td{
+.courses td {
 	padding-left:10px;
 	padding-right:10px;
 }
-.courses caption{
+.courses caption {
 	font-size: 18px;
 }
 .courses tr td:first-child {
