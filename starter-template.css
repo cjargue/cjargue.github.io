@@ -14,7 +14,7 @@ body {
 	background-color:white;
 }
 
-.starter-template {
+.intro {
   padding: 40px 15px; 
   text-align: center;
 }
@@ -58,9 +58,11 @@ a.navbar-brand:hover {
 	color: #ccc;
 }
 .picture {
-	height:300px;
-	margin:25px;
-	float:left;
+	max-width: 100%;
+	height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 
