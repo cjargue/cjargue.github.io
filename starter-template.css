@@ -1,3 +1,7 @@
+html {
+	mid-width: 400px;
+}
+
 body {
   background-color: #eee;
 }
@@ -44,15 +48,20 @@ hr {
 	}
 }
 .section:first-child {
-/*	width: 100%;*/
-	padding-left: 100px;
-	padding-right: 100px;
-	border: none;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .section:nth-child(even) {
 	background-color: #383838;
 	color: white;
 }
+.section:nth-child(even) a{
+	color: #4996d8;
+}
+.section:nth-child(even) a:hover{
+	color: #3778af;
+}
+
 h1{
 	font-size: 30px;
 }
@@ -80,7 +89,11 @@ a.navbar-brand:hover {
     margin-right: auto;
     display: block;
 }
-
+@media(min-width:992px) {
+	.picture {
+		float: right;
+	}
+}
 
 .courses {
 	margin-bottom: 10px;
